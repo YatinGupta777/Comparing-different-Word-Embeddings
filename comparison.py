@@ -32,8 +32,6 @@ for i in range(1):
     elif i == 6:
         model = KeyedVectors.load_word2vec_format('wiki-news-300d-1M-subword.vec')
 
-    bc = BertClient()
-        
     dev = 0
     length = 0
     final = []
